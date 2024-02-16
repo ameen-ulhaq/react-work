@@ -20,6 +20,8 @@ import TodoList from "./TodoList";
 import UseEffect from "./UseEffect";
 import Digitalclock from "./DigitalClock"
 import ComponentA from "./useContext/ComponentA";
+import UseRef from "./UseRef";
+import Stopwatch from "./Stopwatch";
 
 function App() {
 
@@ -38,6 +40,10 @@ const vegetables = [{id: 1, name: "potatoes", calories: 110},
 
   return (
     <>
+      <Stopwatch/>
+      <hr />
+      <UseRef />
+      <hr />
       <ComponentA />
       <hr />
       <Digitalclock />

@@ -19,7 +19,7 @@ function UseEffect () {
     
     useEffect( () => {
         window.addEventListener("resize", handleResize)
-        console.log("addec")
+        // console.log("addec")
 
         return( () => {
             window.removeEventListener("resize", handleResize)
